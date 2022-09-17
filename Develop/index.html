@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- Adding a meta viewport tag indicates the page is mobile-friendly -->
+    <!-- Adding a meta viewport tag indicates the page is mobile-friendly. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Putting name of company for browser's tab gives relevance to content -->
+    <!-- Putting name of company for browser's tab gives relevance to content. -->
     <title>Horiseon</title>
 </head>
-<!-- Replacing div tags for semantic html tags better defines the different sections of the page -->
+<!-- Replacing div tags for semantic html tags better defines the different sections of the page. -->
 <body>
-    <!-- Replaced div to header -->
+    <!-- Replaced div to header. -->
     <header>
-        <!-- Removed class from span-->
+        <!-- Replaced span class to id because span only appears once. -->
         <h1>Hori<span id="header-h1">seo</span>n</h1>
+        <!-- Replaced div to nav. -->
         <nav>
             <ul>
                 <li> <a href="#search-engine-optimization">Search Engine Optimization</a> </li>
@@ -23,12 +24,15 @@
             </ul>
         </nav>
     </header>
-
-    <img class="landing-image" src="./assets/images/digital-marketing-meeting.jpg"
+    <!-- Replaced div to img, added alt txt for accessibility. -->
+    <img id="landing-image" src="./assets/images/digital-marketing-meeting.jpg"
         alt="Four team members meeting to brainstorm ideas." />
-
-    <main class="content-container">
+    <!-- Replaced div to main specifying id as content container. -->
+    <main id="content-container">
+        <!-- Replaced div to section, condensing class for all following 3 sections to '=card' to condense style,
+        added id to Search Engine Optimization section to fix link in nav. -->
         <section class="card" id="search-engine-optimization">
+            <!-- Added id to all img tags in following sections to condense css, added alt txt. -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" id="card-img"
                 alt="A notebook drawing of a diagram of Search Engine Optimization benefits."/>
             <h2>Search Engine Optimization</h2>
@@ -63,9 +67,12 @@
         </section>
     </main>
 
-    <aside class="benefits-container">
+    <!-- Replaced div to aside with id. -->
+    <aside id="benefits-container">
+        <!-- Replaced div to section for following 3 sections, condensing class to'=benefits' to condense style. -->
         <section class="benefits">
             <h3>Lead Generation</h3>
+            <!-- Condensed img class to '=benefits-img' to condense style, added alt txt. -->
             <img src="./assets/images/lead-generation.png" class='benefits-img'
                 alt="Lead generation icon." />
             <p>
@@ -91,9 +98,10 @@
             </p>
         </section>
     </aside>
-
+    <!-- Replaced div to footer. -->
     <footer>
-        <h2 class="footer">Made with ❤️️ by Horiseon</h2>
+        <!-- Added id for this h2 only. -->
+        <h2 id="footer-h2">Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
