@@ -14,7 +14,7 @@ N/A
 
 The following image displays the client's resulting webpage:
 
-![Horiseon webpage](./assets/images/mod-1-screenshot.png)
+![Horiseon webpage](./Develop/assets/images/mod-1-screenshot.png)
 
 ## Credits
 
