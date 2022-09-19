@@ -22,7 +22,7 @@ The following image displays the client's resulting webpage:
 
 ## Credits
 
-N/A
+Source code from [coding-boot-camp](https://github.com/coding-boot-camp/urban-octo-telegram.git).
 
 ## License
 
