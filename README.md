@@ -12,6 +12,10 @@ N/A
 
 ## Usage
 
+View deployed page here:
+
+[Horiseon webpage](https://itsjennyb.github.io/mod-1-code-refactor/)
+
 The following image displays the client's resulting webpage:
 
 ![Horiseon webpage](./assets/images/mod-1-screenshot.png)
